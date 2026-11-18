@@ -18,7 +18,7 @@ st.sidebar.header("Parâmetros de Controle")
 with st.sidebar.expander("🌬️ Condições do Túnel", expanded=True):
     tunel_opcoes = {
         "Customizado (6 m/s)": {"temp": -31.0, "h": 60.0},
-        "Blast Freezer (Alta Vel.)": {"temp": -33.0, "h": 80.0},
+        "Blast Freezer (Alta Vel.)": {"temp": -34.0, "h": 80.0},
         "Túnel Convencional": {"temp": -30.0, "h": 40.0},
         "Câmara Estática (S/ Vento)": {"temp": -22.0, "h": 15.0}
     }
